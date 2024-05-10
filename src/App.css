@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.nav{
+  border:solid black;
+  display:flex;
+  justify-content: space-evenly;
+}
+.productContainer{
+  border:solid black;
+  border-width:.2px;
+  /* height:45vh; */
+  margin:1em;
+  flex-wrap:wrap;
+  display:flex;
+  align-items: center;
+
+}
+.product{
+  border:solid grey;
+  margin:1em;
+  height:150px;
+  width:100px;
+}
+.user{
+  height:160px;
+}
+.profileContainer{
+  border:solid black;
+  display: flex;
+  justify-content: space-between;
+  padding:1em;
+}
+.textbox{
+  width:50%;
+}
